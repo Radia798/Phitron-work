@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* MAIN LAYOUT */
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* DRINK (PRODUCT) SECTION */
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 15px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/* DRINK CARD */
+.card {
+  border: 1px solid gray;
+  padding: 10px;
+  width: 200px;
+}
+
+/* IMAGE (optional) */
+.card-img {
+  width: 150px;
+}
+
+/* CART / GROUP SECTION */
+.cart-container {
+  width: 50%;
+  box-shadow: 4px 4px 8px gray;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+/* CART INFO */
+.cart-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* MODAL */
+#modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+
+.modal-content {
+  background: white;
+  width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+}
+

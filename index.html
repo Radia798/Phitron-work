@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Drink App</title>
+
+  <!-- CSS FILE LINK -->
+  <link rel="stylesheet" href="dex.css">
+</head>
+
+<body>
+
+  <h2>Drink Search App</h2>
+
+  <!-- Search Section -->
+  <input type="text" id="searchInput" placeholder="Search drink">
+  <button id="searchBtn">Search</button>
+  <p id="notFound"></p>
+
+  <!-- Main Layout -->
+  <div class="main-container">
+
+    <!-- Drink Cards -->
+   <div id="product-container" class="product-container"></div>
+
+
+    <!-- Group Section -->
+   <div class="cart-container">
+
+      <h3>Added Drinks (<span id="count">0</span>)</h3>
+      <!-- <ul id="groupList"></ul> -->
+       <div id="cart-main-container"></div>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div id="modal">
+    <div class="modal-content">
+      <h3 id="modalName"></h3>
+      <p id="modalCategory"></p>
+      <p id="modalAlcoholic"></p>
+      <p id="modalGlass"></p>
+      <p id="modalInstructions"></p>
+      <button id="closeModalBtn">Close</button>
+    </div>
+  </div>
+
+  <!-- JAVASCRIPT FILE LINK -->
+  <script src="dex.js"></script>
+
+</body>
+</html>
